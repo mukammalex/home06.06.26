@@ -1,0 +1,172 @@
+*{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+header{
+   display: flex; 
+   justify-content: space-evenly;
+   align-items: center;
+   margin: 25px;
+   gap: 5%;
+}
+nav{
+   display: flex;
+    gap: 40px; 
+}
+.btn-nav{
+ padding: 18px 55px;   
+ border-radius: 8px;
+ background: #FF7143;
+ color: white;
+ border-style: none;
+ cursor: pointer;
+}
+.btn-nav:hover{
+background: #999;
+}
+main{
+    margin-top: 10%;
+}
+.section-01{
+    display: flex;
+   justify-content: space-evenly;    
+}
+.left-01>h1{
+    font-size: 70px;
+}
+p{
+    font-size: 20px;
+    color: #666;
+    line-height: 4vh;
+}
+.btn2btn{
+    display: flex;
+    gap: 40px; 
+}
+.download{
+    padding: 10px;
+    border: 0.5px solid #888;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.download:hover{
+    background: #999;
+}
+.logotipho{
+    display: flex;
+    justify-content: space-evenly;
+}
+.section-02{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+.right-02>h1{
+ font-size: 50px;
+}
+.right-02{
+    margin-top: 8%;
+}
+.right-02>a{
+    font-size: 23px;
+    font-weight: bold;
+}
+.section-03{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+.left-03{
+    margin-top: 12%;
+}
+.left-03>a{
+    font-size: 23px;
+    font-weight: bold;
+}
+.left-03>h1{
+    font-size: 50px;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 8%;
+}
+.section-04{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+    margin-top: 10%;
+}
+.left-04>h1{
+    font-size: 70px;
+}
+.right-04{
+ border: 0.5px solid #F7F7FB;
+ background: #eee;
+ padding: 5px;
+ border-radius: 5px;
+}
+.right-04>button{
+ padding: 18px 55px;
+ border-radius: 8px;
+ font-weight: bold;
+ border-style: none;
+ cursor: pointer;
+}
+.pricing{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    margin-top: 8%;
+}
+.card{
+    width:280px;
+    background:#eee;
+    border-radius:20px;
+    padding:50px 40px;
+    text-align:center;
+}
+.card>h3{
+    color:#666;
+    margin-bottom:30px;
+    font-weight:400;
+    background: none;
+}
+.card>h1{
+    font-size:60px;
+    color:#172544;
+    margin-bottom:50px;
+    background: none;
+}
+.card>h1>span{
+    font-size:20px;
+    background: none;
+}
+.card>p{
+    font-size:20px;
+    color:#666;
+    margin-bottom:25px;
+    background: none;
+}
+.card>button{
+    width:100%;
+    padding:20px;
+    margin-top:40px;
+    border:none;
+    border-radius:15px;
+    background:white;
+    color:#4f46e5;
+    font-size:20px; 
+    cursor:pointer;
+}
+.premium{
+    background: #FF7143;
+    padding: 70px;
+}
+.premium>button{
+    background:#a73a17;
+    color:white;
+}
